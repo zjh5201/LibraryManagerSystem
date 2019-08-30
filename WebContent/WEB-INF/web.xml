@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="true" version="3.1">
+  <servlet>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>Action.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookAction</servlet-name>
+    <servlet-class>Action.BookAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IOAction</servlet-name>
+    <servlet-class>Action.IOAction</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>ReaderLogin</servlet-name>
+    <servlet-class>Action.ReaderLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReaderAction</servlet-name>
+    <servlet-class>Action.ReaderAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReaderLogin</servlet-name>
+    <url-pattern>/ReaderLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderAction</servlet-name>
+    <url-pattern>/ReaderAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookAction</servlet-name>
+    <url-pattern>/BookAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IOAction</servlet-name>
+    <url-pattern>/IOAction</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="css/login.css"  type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css"  type="text/css" />
+	<script language="JavaScript" src="js/jquery-3.2.1.min.js"></script>
+	<script language="JavaScript" src="js/popper.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Library</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/Library/reader/main.jsp">首页</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Library/BookAction?action=getall&user=1">图书库</a>
+            </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="/Library/IOAction?action=getlog&user=1">我的借书记录</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Library/ReaderAction?action=getReaderInfo">我的信息</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Library/ReaderLogin?action=logout">注销</a>
+            </li>
+        </ul>
+        <li class="nav-item">
+            <strong id="rightsize" style="color:white;margin-left:30px;">Copyright &copy; 2019 <a href="#">Creams</a></strong>
+        </li>
+    </div>
+</nav>
+</body>
+</html>
